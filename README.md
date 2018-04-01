@@ -2,5 +2,5 @@ TP 1 - Grupal
 =============
 
 ### Integrantes:
-+ Mercedes
++ Mercedes Mena
 + Erica Garcete
