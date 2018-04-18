@@ -1,7 +1,11 @@
 * {
-    margin:0;
+  margin:0;
 	padding:0;
 	box-sizing:border-box;
+}
+
+body {
+	font-family: sans-serif;
 }
 
 #container {
@@ -26,12 +30,22 @@ header nav a {
 	padding:0 10px;
 }
 
+.social-media {
+	text-align:right;
+}
+
 section.seccion-upper {
 	border:1px solid black;
-	height:100px;
+	height:120px;
 	display:flex;
 	justify-content:space-between;
 	align-items:center;
+}
+
+.seccion-upper .imagen {
+	border:1px solid black;
+	width:100px;
+	height:100px;
 }
 
 .social-icon {
@@ -43,8 +57,20 @@ section.seccion-upper {
 	text-align:center;
 }
 
-section.slider-container {
+.quiensoy {
+	align-self:flex-start;
+	text-align:left;
+	width:60%;
+	overflow:hidden;
+}
+
+.quiensoy h2 {
+	margin:10px 0;
+}
+
+section#slider-container {
 	border:1px solid black;
+	padding:15px 0;
 	height:370px;
 }
 
@@ -55,16 +81,33 @@ section.slider-container {
 	height:340px;
 }
 
+.slick-slide, .slick-current, .slick-active, .slick-center {
+	max-width:820px;
+}
+
 section.seccion-lower {
 	padding:0;
 	display:flex;
 	justify-content:space-between;
 }
 
-.modulo-1, .modulo-2, .modulo-3 {
+.modulo {
 	border:1px solid black;
 	height:200px;
 	width:33%;
+	padding:20px;
+}
+
+.modulo-img {
+	width:150px;
+	height:150px;
+	border:1px solid black;
+	float:left;
+	margin-right:10px;
+}
+
+.modulo h4 {
+	margin:5px 0;
 }
 
 footer {
