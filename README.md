@@ -5,4 +5,4 @@ TP 1 - Grupal
 + Mercedes Mena
 + Erica Garcete
 
-### Slider adaptado de: http://kenwheeler.github.io/slick/
+Slider adaptado de: http://kenwheeler.github.io/slick/
