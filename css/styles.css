@@ -52,6 +52,10 @@ section.seccion-upper {
 	align-items:center;
 }
 
+.porotito{
+	color: #FFFFFF;
+}
+
 .seccion-upper .imagen {
 	width:100px;
 	height:100px;
@@ -83,6 +87,7 @@ section.seccion-upper {
 	height: 100px;
 }
 
+/*Carrusel*/
 section#carousel {
 	height:340px;
 	background-color:#FFFFFF;
