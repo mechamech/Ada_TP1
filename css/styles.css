@@ -1,11 +1,11 @@
 * {
-  margin:0;
+	margin:0;
 	padding:0;
 	box-sizing:border-box;
 }
 
 body {
-	font-family: sans-serif;
+	font-family: 'Open Sans';
 }
 
 #container {
@@ -35,27 +35,8 @@ img.logokitty{
 	padding-top: 1em;
 }
 
-a.link-class:visited{
-	color:#FFFFFF;
-	text-decoration: none;
-}
-
-a.link-class:hover{
-	color:#FFFFFF;
-	text-decoration: none;	
-}
-
-.porotito{
-	color: #FFFFFF;
-}
-
-a.link-a:visited{
-	color:#FFFFFF;
-	text-decoration: none;
-}
-
-a.link-a:hover{
-	color:#FFFFFF;
+a, a:visited, a:hover {
+	color:white;
 	text-decoration: none;
 }
 
@@ -72,13 +53,11 @@ section.seccion-upper {
 }
 
 .seccion-upper .imagen {
-	/*border:1px solid black;*/
 	width:100px;
 	height:100px;
 }
 
 .social-icon {
-	/*border:1px solid black;*/
 	display:inline-block;
 	width:36px;
 	height:36px;
@@ -95,6 +74,8 @@ section.seccion-upper {
 
 .quiensoy h2 {
 	margin:10px 0;
+	color:#54a4a6;
+	font-weight: bold;
 }
 
 .profile-cat {
@@ -120,10 +101,14 @@ section#carousel {
 
 #slide3 {
 	background-image:url("../img/elifer.png");
+	background-size: cover;
+	background-position: center;
 }
 
 #slide1 {
 	background-image:url("../img/dindacat.png");
+	background-size: cover;
+	background-position: center;
 }
 
 p.d-block {
