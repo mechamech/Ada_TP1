@@ -6,3 +6,5 @@ TP 1 - Grupal
 + Erica Garcete
 
 Slider adaptado de: http://kenwheeler.github.io/slick/
+
+
