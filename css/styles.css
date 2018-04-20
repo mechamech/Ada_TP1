@@ -104,7 +104,7 @@ section.seccion-upper {
 
 section#carousel {
 	height:340px;
-	background-color:lightpink;
+	background-color:#FFFFFF;
 	overflow:hidden;
 }
 
@@ -113,11 +113,17 @@ section#carousel {
 }
 
 #slide2 {
-	background-image:url("../img/1.jpg");
+	background-image:url("../img/adacat.jpg");
+	background-size: cover;
+	background-position: center;
 }
 
 #slide3 {
-	background-image:url("../img/2.jpg");
+	background-image:url("../img/elifer.png");
+}
+
+#slide1 {
+	background-image:url("../img/dindacat.png");
 }
 
 p.d-block {
