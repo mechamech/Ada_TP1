@@ -93,6 +93,12 @@ section#carousel {
 	height:340px;
 }
 
+#slide1 {
+	background-image:url("../img/aguscat.png");
+	background-size: cover;
+	background-position: center;
+}
+
 #slide2 {
 	background-image:url("../img/adacat.jpg");
 	background-size: cover;
@@ -105,11 +111,19 @@ section#carousel {
 	background-position: center;
 }
 
-#slide1 {
-	background-image:url("../img/dindacat.png");
+#slide4 {
+	background-image:url("../img/zoecat1.jpeg");
 	background-size: cover;
 	background-position: center;
 }
+
+#slide5 {
+	background-image:url("../img/zoecat2.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+
+
 
 p.d-block {
 	padding:20px;
